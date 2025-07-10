@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo yum install -y firewalld
+sudo service firewalld start
+sudo systemctl enable firewalld
